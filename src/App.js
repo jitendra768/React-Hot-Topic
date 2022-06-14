@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import Fruit from './Fruit';
+import Fruit from './components/Fruit';
 
 const fruits = {
   name: 'Mango',
