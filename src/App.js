@@ -4,6 +4,7 @@ import Fruit from './components/Fruit';
 import Car from './components/Car';
 import Parent from './components/PropDrilling';
 import Parents from './components/With_Context';
+import DisplayData from '../fetchData/components/AxiosData';
 
 const fruits = {
   name: 'Mango',
