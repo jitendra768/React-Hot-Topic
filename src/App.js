@@ -3,6 +3,7 @@ import './style.css';
 import Fruit from './components/Fruit';
 import Car from './components/Car';
 import Parent from './components/PropDrilling';
+import Parents from './components/With_Context';
 
 const fruits = {
   name: 'Mango',
@@ -14,7 +15,8 @@ export default function App() {
     <div className="App">
       {/* <Fruit fruits={fruits} />
       <Car/> */}
-      <Parent/>
+      {/* <Parent/> */}
+      <Parents/>
     </div>
   );
 }
