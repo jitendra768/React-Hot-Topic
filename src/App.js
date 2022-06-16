@@ -19,7 +19,7 @@ export default function App() {
       <Car/> */}
       {/* <Parent/> */}
       {/* <Parents/> */}
-      <Posts/>
+      {/* <Posts/> */}
     </div>
   );
 }
