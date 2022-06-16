@@ -21,16 +21,21 @@ function Get() {
     getAllData();
   }, []);
 
-  return <>
-  
-  {data ? data.map((item,i)=>{
-    return (
-      <div className='data' key={i}>
-        <h3>{item.name}</h3>
-      </div>
-    )
-  }): <h2>Data not yet</h2>}
-  </>;
+  return (
+    <>
+      {data ? (
+        data.map((item, i) => {
+          return (
+            <div className="data" key={i}>
+              <h3>{item.name}</h3>
+            </div>
+          );
+        })
+      ) : (
+        <h2>Data not yet</h2>
+      )}
+    </>
+  );
 }
 
 export default Get;
