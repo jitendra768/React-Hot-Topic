@@ -4,7 +4,7 @@ import './style.css';
 // import Car from './components/Car';
 // import Parent from './components/PropDrilling';
 // import Parents from './components/With_Context';
-import Get from './fetchData/AxiosData';
+import Get from './FetchData/AxiosData';
 // import Posts from './FetchData/FetchApi';
 
 const fruits = {
@@ -20,7 +20,7 @@ export default function App() {
       {/* <Parent/> */}
       {/* <Parents/> */}
       {/* <Posts/> */}
-      <Get/>
+      <Get />
     </div>
   );
 }
