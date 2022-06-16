@@ -5,7 +5,7 @@ import Car from './components/Car';
 import Parent from './components/PropDrilling';
 import Parents from './components/With_Context';
 import DisplayData from '../fetchData/components/AxiosData';
-import Posts from '../fetchData/FetchApi';
+import Posts from './FetchData/FetchApi';
 
 const fruits = {
   name: 'Mango',
