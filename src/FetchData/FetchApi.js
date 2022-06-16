@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+
 export default function Posts() {
   const [post, getPost] = useState([]);
   const API = 'https://jsonplaceholder.typicode.com/posts';

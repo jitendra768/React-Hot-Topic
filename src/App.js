@@ -1,11 +1,11 @@
 import React from 'react';
 import './style.css';
-import Fruit from './components/Fruit';
-import Car from './components/Car';
-import Parent from './components/PropDrilling';
-import Parents from './components/With_Context';
-import DisplayData from '../fetchData/components/AxiosData';
-import Posts from './FetchData/FetchApi';
+// import Fruit from './components/Fruit';
+// import Car from './components/Car';
+// import Parent from './components/PropDrilling';
+// import Parents from './components/With_Context';
+import Get from './fetchData/AxiosData';
+// import Posts from './FetchData/FetchApi';
 
 const fruits = {
   name: 'Mango',
@@ -20,6 +20,7 @@ export default function App() {
       {/* <Parent/> */}
       {/* <Parents/> */}
       {/* <Posts/> */}
+      <Get/>
     </div>
   );
 }
